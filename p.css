@@ -1,0 +1,29 @@
+header{
+    position:fixed;
+    top:0px;
+    width:100%;
+    height:19px;
+    padding:25px 0px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background-color:black
+      opacity:0;
+  }
+  
+  @Media(max-width:500px){
+    body{
+      flex-wrap:wrap;
+    }
+  }
+  
+  body{
+    font-family:'nunico'
+      color : white;
+    
+    background-color:white;
+    line-height:1.4;
+    width:100%;
+  }
+  
+  
